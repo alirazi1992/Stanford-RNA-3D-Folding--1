@@ -16,7 +16,7 @@ Over the past few weeks, I’ve been diving deep into the **Stanford RNA 3D Fold
 		I replaced one-hot encodings with trainable embedding layers, allowing the model to learn richer representations of nucleotide identities. Combined with positional 			embeddings, this significantly improved performance and model generalization.
 	4.	Advanced Architectures
 		I implemented:
-				• **Bidirectional GRUs** for sequential modeling
+				• "Bidirectional GRUs" for sequential modeling
 				• Transformer-based architectures with attention mechanisms
 				• Delta prediction models that predict relative positions instead of absolute 3D coordinates
 	5.	Normalization + Clipping
