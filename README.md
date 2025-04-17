@@ -1,4 +1,4 @@
-🚀 My Journey into RNA 3D Structure Prediction | Stanford RNA Folding Challenge 🧬
+# 🚀 My Journey into RNA 3D Structure Prediction | Stanford RNA Folding Challenge 🧬
 
 Over the past few weeks, I’ve been diving deep into the Stanford RNA 3D Folding Kaggle Competition, one of the most exciting and technically rich challenges I’ve participated in. This competition involves predicting the 3D coordinates of atoms in RNA molecules based on their nucleotide sequences. The problem sits at the intersection of biology, geometry, and deep learning, and has pushed my modeling, data engineering, and scientific visualization skills to new heights.
 
