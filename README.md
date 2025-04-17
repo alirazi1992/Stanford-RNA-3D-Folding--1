@@ -9,16 +9,23 @@ Over the past few weeks, I’ve been diving deep into the **Stanford RNA 3D Fold
 **🛠️ My Workflow & Modeling Path**
 
 	1.	EDA + Preprocessing
+ 
 		I started with a comprehensive exploratory data analysis (EDA) — evaluating sequence lengths, nucleotide distributions, coordinate distributions, and label density. 			This gave me insight into the scale and variability of RNA structures across samples.
+  
 	2.	Baseline Models
+ 
 		My first approach used a simple MLP Regressor on one-hot encoded sequences. Though the results weren’t perfect, it provided a valuable baseline for evaluating progress.
+  
 	3.	Embedding Models
+ 
 		I replaced one-hot encodings with trainable embedding layers, allowing the model to learn richer representations of nucleotide identities. Combined with positional 			embeddings, this significantly improved performance and model generalization.
+  
 	4.	Advanced Architectures
 		I implemented:
-				• [Bidirectional GRUs] for sequential modeling
+				• Bidirectional GRUs for sequential modeling
 				• Transformer-based architectures with attention mechanisms
 				• Delta prediction models that predict relative positions instead of absolute 3D coordinates
+    
 	5.	Normalization + Clipping
 
 
@@ -39,7 +46,7 @@ To improve training stability, I experimented with z-score and MinMax normalizat
 
 **🔥 Results**
 		
-  	My best **Transformer + Delta model** achieved an impressive Validation **MSE ~2945**, with substantial visual alignment between predicted and ground truth structures.
+  	My best **Transformer + Delta model achieved an impressive Validation MSE ~2945, with substantial visual alignment between predicted and ground truth structures.
 
 -----
 
